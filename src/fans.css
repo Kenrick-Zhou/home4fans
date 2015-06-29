@@ -1,0 +1,74 @@
+body {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  background: none;
+  color: white;
+  text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5);
+  height: 100%;
+}
+
+.product {
+  height: 100%;
+  display: table;
+  vertical-align: middle;
+}
+.vertical-center-row {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+h1 {
+  font-size: 62px;
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+#qrcode {
+  border: 5px solid rgba(255, 255, 255, 0.25);
+  width: 130px;
+  height: 130px;
+}
+
+#m-classic {
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+#m-classic2 {
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+#name {
+  font-size: 12px;
+  color: #eeeeee;
+}
+#name2 {
+  font-size: 12px;
+  color: #eeeeee;
+}
+#m-people {
+  line-height: 1.2;
+  margin-right: 8px;
+}
+#m-people2 {
+  line-height: 1.2;
+  margin-right: 8px;
+}
+
+
+.footer {
+  text-align: right;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 110px;
+}
+
+
+/*.full {
+  background: url(../images/0.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: 3s;
+}*/

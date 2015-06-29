@@ -1,0 +1,23 @@
+[
+  {
+    "name": "大话西游",
+    "lines": "lines1lines1, lines1lines1, lines1lines1, lines1lines1",
+    "director": "director1",
+    "actor": "actor1, actor1, actor1, actor1, actor1",
+    "bgimage": "http://fans-photo.b0.upaiyun.com/bg/2/1.jpg!big"
+  },
+  {
+    "name": "黄海",
+    "lines": "lines1lines2, lines1lines2, lines1lines2, lines1lines2",
+    "director": "director2",
+    "actor": "actor2, actor2, actor2, actor2, actor2",
+    "bgimage": "http://fans-photo.b0.upaiyun.com/bg/2/2.jpg!big"
+  },
+  {
+    "name": "侏罗纪世界",
+    "lines": "lines1lines3, lines1lines3, lines1lines3, lines1lines3",
+    "director": "director3",
+    "actor": "actor3, actor3, actor3, actor3, actor3",
+    "bgimage": "http://fans-photo.b0.upaiyun.com/bg/2/3.jpg!big"
+  }
+]
