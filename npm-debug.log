@@ -1,0 +1,167 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'font-spider', '-g' ]
+2 info using npm@2.7.5
+3 info using node@v0.12.2
+4 verbose node symlink /usr/local/bin/node
+5 silly cache add args [ 'font-spider', null ]
+6 verbose cache add spec font-spider
+7 silly cache add parsed spec { raw: 'font-spider',
+7 silly cache add   scope: null,
+7 silly cache add   name: 'font-spider',
+7 silly cache add   rawSpec: '',
+7 silly cache add   spec: '*',
+7 silly cache add   type: 'range' }
+8 verbose addNamed font-spider@*
+9 silly addNamed semver.valid null
+10 silly addNamed semver.validRange *
+11 silly addNameRange { name: 'font-spider', range: '*', hasData: false }
+12 silly mapToRegistry name font-spider
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/font-spider
+16 verbose addNameRange registry:https://registry.npmjs.org/font-spider not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/font-spider
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 19:32:42
+20 verbose request id fc10ac42683a48c2
+21 verbose etag "BFAEWBQA27VM9GGZUA1F0SFJB"
+22 http request GET https://registry.npmjs.org/font-spider
+23 http 304 https://registry.npmjs.org/font-spider
+24 silly get cb [ 304,
+24 silly get   { date: 'Wed, 01 Jul 2015 11:32:45 GMT',
+24 silly get     via: '1.1 varnish',
+24 silly get     'cache-control': 'max-age=60',
+24 silly get     etag: '"BFAEWBQA27VM9GGZUA1F0SFJB"',
+24 silly get     age: '0',
+24 silly get     connection: 'keep-alive',
+24 silly get     'x-served-by': 'cache-nrt6125-NRT',
+24 silly get     'x-cache': 'MISS',
+24 silly get     'x-cache-hits': '0',
+24 silly get     'x-timer': 'S1435750365.230749,VS0,VE723',
+24 silly get     vary: 'Accept' } ]
+25 verbose etag https://registry.npmjs.org/font-spider from cache
+26 verbose get saving font-spider to /Users/Kenrick/.npm/registry.npmjs.org/font-spider/.cache.json
+27 silly addNameRange number 2 { name: 'font-spider', range: '*', hasData: true }
+28 silly addNameRange versions [ 'font-spider',
+28 silly addNameRange   [ '0.0.1-beta',
+28 silly addNameRange     '0.0.1-beta2',
+28 silly addNameRange     '0.0.1-beta3',
+28 silly addNameRange     '0.0.1-beta5',
+28 silly addNameRange     '0.0.1-beta6',
+28 silly addNameRange     '0.0.1-beta8',
+28 silly addNameRange     '0.0.1-beta9',
+28 silly addNameRange     '0.0.1-beta10',
+28 silly addNameRange     '0.0.1-beta12',
+28 silly addNameRange     '0.0.1',
+28 silly addNameRange     '0.0.2',
+28 silly addNameRange     '0.0.3',
+28 silly addNameRange     '0.1.0',
+28 silly addNameRange     '0.1.1-beta4',
+28 silly addNameRange     '0.2.0-beta1',
+28 silly addNameRange     '0.2.0-beta2',
+28 silly addNameRange     '0.2.0',
+28 silly addNameRange     '0.2.1' ] ]
+29 verbose addNamed font-spider@0.2.1
+30 silly addNamed semver.valid 0.2.1
+31 silly addNamed semver.validRange 0.2.1
+32 silly cache afterAdd font-spider@0.2.1
+33 verbose afterAdd /Users/Kenrick/.npm/font-spider/0.2.1/package/package.json not in flight; writing
+34 verbose afterAdd /Users/Kenrick/.npm/font-spider/0.2.1/package/package.json written
+35 silly install resolved [ { name: 'font-spider',
+35 silly install resolved     description: 'Webfont optimizer',
+35 silly install resolved     version: '0.2.1',
+35 silly install resolved     homepage: 'https://github.com/aui/font-spider',
+35 silly install resolved     author: { name: 'aui', email: 'sugarpie.tang@gmail.com' },
+35 silly install resolved     repository: { type: 'git', url: 'git://github.com/aui/font-spider.git' },
+35 silly install resolved     bugs: { url: 'https://github.com/aui/font-spider/issues' },
+35 silly install resolved     licenses: [ [Object] ],
+35 silly install resolved     bin: { fs: 'bin/font-spider', 'font-spider': 'bin/font-spider' },
+35 silly install resolved     main: './src/index.js',
+35 silly install resolved     engines: { node: '>= 0.8.0' },
+35 silly install resolved     scripts:
+35 silly install resolved      { _remove: 'rm -rf release',
+35 silly install resolved        _copy: 'mkdir release && cp -R test/* release',
+35 silly install resolved        test: 'npm run _remove && npm run _copy && node release/test.js && node release/spider-http.js' },
+35 silly install resolved     dependencies:
+35 silly install resolved      { cheerio: '^0.18.0',
+35 silly install resolved        commander: '^2.6.0',
+35 silly install resolved        css: '^2.2.0',
+35 silly install resolved        fontmin: '^0.7.3',
+35 silly install resolved        glob: '^4.4.0',
+35 silly install resolved        ignore: '^2.2.15',
+35 silly install resolved        promise: '^6.1.0' },
+35 silly install resolved     keywords:
+35 silly install resolved      [ 'font',
+35 silly install resolved        'fontforge',
+35 silly install resolved        'font-face',
+35 silly install resolved        'woff',
+35 silly install resolved        'ttf',
+35 silly install resolved        'svg',
+35 silly install resolved        'eot',
+35 silly install resolved        'truetype',
+35 silly install resolved        'css',
+35 silly install resolved        'webfont' ],
+35 silly install resolved     gitHead: '6e014c3f7c09a0bb28d5d208bc34cba745d3d6a8',
+35 silly install resolved     _id: 'font-spider@0.2.1',
+35 silly install resolved     _shasum: 'f6f4db66bff48b76025cb6df80d033b852defe50',
+35 silly install resolved     _from: 'font-spider@*',
+35 silly install resolved     _npmVersion: '2.5.1',
+35 silly install resolved     _nodeVersion: '0.12.0',
+35 silly install resolved     _npmUser: { name: 'aui', email: '1987.tangbin@gmail.com' },
+35 silly install resolved     maintainers: [ [Object] ],
+35 silly install resolved     dist:
+35 silly install resolved      { shasum: 'f6f4db66bff48b76025cb6df80d033b852defe50',
+35 silly install resolved        tarball: 'http://registry.npmjs.org/font-spider/-/font-spider-0.2.1.tgz' },
+35 silly install resolved     directories: {},
+35 silly install resolved     _resolved: 'https://registry.npmjs.org/font-spider/-/font-spider-0.2.1.tgz',
+35 silly install resolved     readme: 'ERROR: No README data found!' } ]
+36 info install font-spider@0.2.1 into /usr/local/lib
+37 info installOne font-spider@0.2.1
+38 verbose installOne of font-spider to /usr/local/lib not in flight; installing
+39 verbose lock using /Users/Kenrick/.npm/_locks/font-spider-d6bc40d40d6a7b7c.lock for /usr/local/lib/node_modules/font-spider
+40 silly install write writing font-spider 0.2.1 to /usr/local/lib/node_modules/font-spider
+41 silly cache addNamed cb font-spider@0.2.1
+42 verbose unbuild lib/node_modules/font-spider
+43 silly gentlyRm /usr/local/lib/node_modules/font-spider is being purged from base /usr/local
+44 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/font-spider
+45 verbose tar unpack /Users/Kenrick/.npm/font-spider/0.2.1/package.tgz
+46 verbose tar unpacking to /usr/local/lib/node_modules/font-spider
+47 silly gentlyRm /usr/local/lib/node_modules/font-spider is being purged
+48 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/font-spider
+49 silly gunzTarPerm modes [ '755', '644' ]
+50 error tar.unpack untar error /Users/Kenrick/.npm/font-spider/0.2.1/package.tgz
+51 verbose unlock done using /Users/Kenrick/.npm/_locks/font-spider-d6bc40d40d6a7b7c.lock for /usr/local/lib/node_modules/font-spider
+52 verbose fstream_path /usr/local/lib/node_modules/font-spider
+53 verbose fstream_type Directory
+54 verbose fstream_class DirWriter
+55 verbose stack Error: EACCES, mkdir '/usr/local/lib/node_modules/font-spider'
+55 verbose stack     at Error (native)
+56 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+56 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+56 verbose fstream_stack FSReqWrap.oncomplete (fs.js:95:15)
+57 verbose cwd /Users/Kenrick/Git-Repos/home4fans
+58 error Darwin 14.3.0
+59 error argv "node" "/usr/local/bin/npm" "install" "font-spider" "-g"
+60 error node v0.12.2
+61 error npm  v2.7.5
+62 error path /usr/local/lib/node_modules/font-spider
+63 error code EACCES
+64 error errno -13
+65 error Error: EACCES, mkdir '/usr/local/lib/node_modules/font-spider'
+65 error     at Error (native)
+65 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/font-spider']
+65 error   errno: -13,
+65 error   code: 'EACCES',
+65 error   path: '/usr/local/lib/node_modules/font-spider',
+65 error   fstream_type: 'Directory',
+65 error   fstream_path: '/usr/local/lib/node_modules/font-spider',
+65 error   fstream_class: 'DirWriter',
+65 error   fstream_stack:
+65 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+65 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+65 error      'FSReqWrap.oncomplete (fs.js:95:15)' ] }
+66 error Please try running this command again as root/Administrator.
+67 verbose exit [ -13, true ]
+68 verbose unbuild lib/node_modules/font-spider
+69 silly gentlyRm /usr/local/lib/node_modules/font-spider is being purged from base /usr/local
+70 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/font-spider
